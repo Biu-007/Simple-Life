@@ -1,0 +1,326 @@
+header{
+    /* border: black 1px solid; */
+    display: flex;
+    background-color: #F8F8F8;
+    justify-content: space-around;
+    height: 15rem;
+    width: 100%;
+    /* max-width: 2086px; */
+    margin:  0 auto 3rem auto;
+}
+#logo h1{
+    margin-top: 30%;
+    margin-bottom: 0;
+    color: #143774;
+    font-family: Lora;
+}
+#logo p{
+    margin-top: 0;
+    color: #1792D2;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 30%;
+    justify-content: space-between;
+    width: 20rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: #717171;
+    font-size:larger;
+    
+}
+nav a:hover{
+    color: #1792D2;
+    
+} 
+nav a:focus{
+    color: #717171;
+    border-bottom: #717171 2px solid ;
+    padding-bottom: 2px;
+} 
+
+/*****************************
+        Main contant
+******************************/
+/* .container{
+    border: black 1px solid;
+} */
+main{
+    /* border: blue 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%
+    
+}
+
+#container1{
+    width: 60%;
+}
+#container1 h2{
+    font-family: Lora;
+    color: #143774;
+}
+#container1 p{
+    font-family: Ubuntu;
+    font-weight: lighter;
+    color: #707070;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+#container1 a{
+    text-decoration:none;
+    color: #1792D2;
+    font-family: Ubuntu;
+    font-weight: bold;
+    
+}
+
+.articleImg{
+    max-width: 198px;
+    height: 242px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#fourth_ArticleImg{
+    object-position: left;
+}
+
+#container1 article{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+}
+.postArticle{
+    width: 65%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.img-container{
+    width: 30%;
+}
+.img-container p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+}
+
+
+
+
+#articleOne{
+    flex-direction: column;
+    
+}
+#frist_ArticleImg{
+    max-width: 714px;
+    width: 100%;
+    height: 308px;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+#container1 h2{
+    margin-top: 0;
+}
+
+
+
+
+
+#container2{
+    width: 20%;
+}
+#container2 article img{
+    max-width: 150px;
+    width: 80%;
+    height: 133px;
+    object-fit:cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container2 article{
+    border: #EBEBEB 20px solid;
+    
+}
+#container2 article p{
+    width: 75%;
+    font-family: Ubuntu;
+    font-weight: lighter;
+    color: #1792D2;
+    margin-right: auto;
+    margin-left: auto;
+}
+#container2 h2{
+    font-family: Ubuntu;
+    font-weight: bold;
+    color: #143774;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+aside{
+    border: #EBEBEB 20px solid;
+    margin-top: 4rem;
+}
+aside img{
+    max-width: 150px;
+    width: 80%;
+    height: 87px;
+    object-fit: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+aside p{
+    font-family: Lora;
+    font-size: 18px;
+    color: #c7db13;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2rem;
+    border-bottom: #707070 1px solid;
+}
+aside section{
+    margin-top: 10px;
+}
+#lastP{
+    border: none;
+}
+footer{
+    background-color:#143774 ;
+    color: #ffffff;
+    width: 100%;
+    height: 172px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+footer p{
+    opacity: 0.45;
+}
+#p1{
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+
+@media (max-width:1026px) {
+
+header{
+    border: #EBEBEB 1px solid;
+    background-color: #F8F8F8;
+    max-width: 588px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+}
+#logo h1{margin-top: 10%;}
+
+nav ul{
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+nav a:focus{
+    color: #717171;
+    border-bottom: #717171 2px solid ;
+    padding-bottom: 1px;
+} 
+/*****************************
+        Main contant
+******************************/
+body{
+    background-color: #F8F8F8;
+}
+main{
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    max-width: 588px;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+#container1{width: 100%;}
+
+#container1 article{
+    flex-direction: column;
+}
+.img-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.articleImg{
+    max-width: 517px;
+    width: 100%;
+    height: 242px;
+    
+    
+}
+#frist_ArticleImg{
+    max-width: 518px;
+    width: 100%;
+    height: 308px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#articleOne {
+    border-bottom: #707070 3px solid;
+    padding-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+#articleOne div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#third_ArticleImg{
+    object-position: bottom;
+}
+.postArticle{
+    width: 90%;
+}
+
+
+
+
+#container2{width: 65%;}
+footer{
+    max-width: 557px;
+    width: 100%;
+    margin:auto
+}
+
+
+}
+
+
+
